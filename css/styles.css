@@ -1,0 +1,235 @@
+/*Navigation bar on top of the screen */
+.navbar {
+    background-color: #53507E;
+    border-color: #53507E;
+    height:37px;
+    width:1100px;
+    margin-top: 30px;
+    margin-bottom: 115px;
+  /*  text-align: center;*/
+}
+
+
+
+/*LOGO top left of screen*/
+.Logo{
+    height:37px;
+    background-image: url('../images/logo.svg');
+    width: 163px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #B1AEDE;
+}
+
+/*The CONTACT & ABOUT US in Footer?*/
+.navbar-nav>li>a {
+    color: #B1AEDE;
+}
+/*Social Tags top right of footer*/
+.Instagram{
+    height:34px;
+    width:34px;
+    margin-left: 10px;
+    background-image: url('../images/instagram.svg');
+}
+.Instagram:hover{
+    opacity: 0.75;
+}
+.Facebook{
+    height:34px;
+    width:34px;
+    margin-left: 10px;
+    background-image: url('../images/facebook.svg');
+}
+.Facebook:hover{
+    opacity: 0.75;
+}
+.Twitter{
+    height:34px;
+    width:34px;
+    margin-left: 10px;
+    background-image: url('../images/twitter.svg');
+}
+.Twitter:hover{
+    opacity: 0.75;
+}
+/*Left column*/
+div.col-md-8{
+    width:550px;
+    float: left;
+}
+
+/*Right column*/
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size:52px;
+    color: white;
+    line-height:56px;
+    margin-bottom:35px;
+}
+div.col-md-4{
+    width:550px;
+    float: left;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    color: #B1AEDE;
+    margin-bottom:120px;
+}
+
+
+.btn-default{
+    height:80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(255,142,216,0.75);
+    background-color: #FF8ED8;
+    font-family: "Raleway", sans-serif;
+    font-weight:800;
+    font-size: 24px;
+    color: white;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /*TODO BUTTON text center & HOVER*/
+}
+
+@keyframes example {
+    20%   {background-color: #FF8ED8; left:0px; top:0px;}
+    40%  {background-color: #ff7400; left:200px; top:0px;}
+    60%  {background-color: #ffb100; left:200px; top:200px;}
+    80%  {background-color: #FFE800; left:0px; top:200px;}
+    100% {background-color: #fffdfc; left:0px; top:0px;}
+}
+
+.btn:hover{
+    box-shadow: 0 0 30px rgba(61,101,0,0.75);
+    color:#403D65;
+
+}
+
+footer{
+    margin-top: 100px;
+    height: 105px;
+    background-color: #403D65;
+
+}
+.copyRight{
+    height: 35px;
+    margin-top: 15px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #B1AEDE;
+    text-align: center;
+}
+p {
+    margin-bottom: 2cm;
+}
+
+body {
+    background-color: #53507E;
+}
+
+/*-------------------ABOUT Us columns-------------------*/
+.col-md-offset-4{
+    width:750px;
+    padding: 80px 80px 80px 80px;
+    margin-top: 0;
+    /*margin centered left/right*/
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(255,255,255,0.75);
+}
+
+/*About Us */
+h4{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FF8ED8;
+    margin-bottom: 35px;
+}
+.col-md-offset-4>p{
+    font-family: "Roboto Slab",serif;
+    font-weight:400;
+    font-size:18px;
+    color: #5C5C5C;
+    max-width: 480px;
+}
+
+/*Jeb*/
+h5{
+    padding-left: inherit;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #5C5C5C;
+    margin-bottom: 10px;
+}
+.jeb{
+    width:208px;
+    position: absolute;
+    top: -40px;
+    left: -70px;
+    border: 20px solid white;
+    border-radius: 50%;
+}
+
+/*Jezebelle*/
+h6{
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #5C5C5C;
+    margin-bottom: 10px;
+}
+.jez{
+    width:208px;
+    position: absolute;
+    top: -40px;
+    right: -70px;
+    border: 20px solid white;
+    border-radius: 50%;
+}
+.col-md-offset-4>p1{
+    font-family: "Roboto Slab",serif;
+    font-weight:400;
+    font-size:18px;
+    color: #5C5C5C;
+    max-width: 480px;
+    text-align: right;
+}
+
+/*-------------------CONTACT columns-------------------*/
+.form{
+    width: 500px;
+    margin: 0 auto;
+    outline: none;
+
+    border-bottom: 2px solid white;
+    background-color: #53507E;
+    background: none;
+    font-family: "Roboto Slab",serif;
+    font-weight:700;
+    font-size:18px;
+    color:white;
+    padding-left: 0;
+    placeholder-text-color:#B1AEDE;
+}
+.form-inline{
+    width:45%;
+
+}
+
+/*
+TODO
+
+2-javascript?
+
+*/
